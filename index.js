@@ -5,18 +5,18 @@ function saturdayFun(task="roller-skate"){
 }
 
 saturdayFun()
-                          //="go to the office"
-let mondayWork=(function (task2){
-  return `This Monday, I will ${task2} `
-})("go to the office")
+                        
+let mondayWork=function (task2="go to the office"){
+  return `This Monday, I will ${task2}.`
+}
 mondayWork()
-
+/*
 function wrapAdjective(){
   return function(var1){
     return let encouragingPromptFunction = wrapAdjective("!!!")
   }("special")
 }
-
+*/
 
 
 
