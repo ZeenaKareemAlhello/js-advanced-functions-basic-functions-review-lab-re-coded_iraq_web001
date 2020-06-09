@@ -42,7 +42,19 @@ function actionApplyer(x,y){
   }
 }
 actionApplyer(3,[])
-
+ var arrayOfFunction = [ 
+                function(a) { 
+                  return a*2 ; 
+                }, 
+                  
+                function(b) { 
+                    return b+1000 
+                }, 
+                  
+                function() { 
+                    down.innerHTML = "Inside Third function"; 
+                }      
+            ] 
 
 
 
