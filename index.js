@@ -51,8 +51,8 @@ actionApplyer(3,[])
                     return b+1000 
                 }, 
                   
-                function() { 
-                    down.innerHTML = "Inside Third function"; 
+                function(c) { 
+                    return c%7; 
                 }      
             ] 
 
