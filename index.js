@@ -33,7 +33,7 @@ const Calculator={
   }
 }
 
-function actionApplyer(x=0,y){
+function actionApplyer(x,y){
   if (y===[]){
   return x
     
