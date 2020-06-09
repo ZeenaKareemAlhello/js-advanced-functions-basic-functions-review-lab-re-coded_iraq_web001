@@ -18,7 +18,7 @@ function wrapAdjective(str="*"){
 }
 let encouragingPromptFunction = wrapAdjective("%")("a dedicated programmer")
 
-let Calculator={add,subtract,}
+let Calculator={add,subtract,multiply}
 
 
 
