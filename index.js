@@ -16,7 +16,7 @@ function wrapAdjective(str="*"){
        return "You are "
   }
 }
-wrapAdjective()
+let encouragingPromptFunction = wrapAdjective("!!!")
 
 
 
