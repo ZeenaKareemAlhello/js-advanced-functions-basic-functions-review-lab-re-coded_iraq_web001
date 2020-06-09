@@ -12,7 +12,7 @@ let mondayWork=function (task2="go to the office"){
 mondayWork()
 
 function wrapAdjective(){
-  return function(var1){
+  return function(var1="special"){
        return 
   }
 }
