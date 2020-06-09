@@ -16,7 +16,7 @@ function wrapAdjective(str="*"){
        return `You are ${str} ${var1}${str}!`
   }
 }
-let encouragingPromptFunction = wrapAdjective("%")
+let encouragingPromptFunction = wrapAdjective("%")("a dedicated programmer")
 
 
 
