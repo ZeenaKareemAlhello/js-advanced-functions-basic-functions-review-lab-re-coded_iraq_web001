@@ -39,7 +39,7 @@ function actionApplyer(x,y){
     
   }
 }
-
+actionApplyer(3,[])
 
 
 
