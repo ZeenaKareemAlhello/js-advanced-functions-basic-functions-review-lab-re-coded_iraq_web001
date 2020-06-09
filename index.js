@@ -33,7 +33,9 @@ const Calculator={
   }
 }
 
-
+function actionApplyer(){
+  
+}
 
 
 
