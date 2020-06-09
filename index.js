@@ -41,8 +41,7 @@ function actionApplyer(x,y){
     
   }
 }
-actionApplyer(3,arrayOfFunction)
- let arrayOfFunction = [ 
+let arrayOfFunction = [ 
                 function(a) { 
                   return a*2 ; 
                 }, 
@@ -56,6 +55,8 @@ actionApplyer(3,arrayOfFunction)
                 }      
             ] 
 
+actionApplyer(3,arrayOfFunction)
+ 
 
 
 
