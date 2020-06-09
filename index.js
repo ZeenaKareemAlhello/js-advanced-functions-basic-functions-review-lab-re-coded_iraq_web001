@@ -13,10 +13,10 @@ mondayWork()
 
 function wrapAdjective(str="*"){
   return function(var1="special"){
-       return "You are "
+       return `You are ${str} ${var1}`
   }
 }
-let encouragingPromptFunction = wrapAdjective("!!!")
+let encouragingPromptFunction = wrapAdjective("%")
 
 
 
