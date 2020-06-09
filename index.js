@@ -42,6 +42,7 @@ function actionApplyer(x,y){
     for(let i=0;i<y.length;i++){
     res=y[i](res)
     }
+    return res
   }
 }
 let arrayOfFunction = [ 
