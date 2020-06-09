@@ -18,7 +18,12 @@ function wrapAdjective(str="*"){
 }
 let encouragingPromptFunction = wrapAdjective("%")("a dedicated programmer")
 
-const Calculator={add,subtract,multiply,divide}
+const Calculator={
+  add:function(a,b){
+    return a+b
+  },
+  subtract:
+  ,multiply,divide}
 
 
 
