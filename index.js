@@ -58,7 +58,7 @@ let arrayOfFunction = [
                 }      
             ] 
 
-actionApplyer(3,arrayOfFunction)
+actionApplyer(13,arrayOfFunction)
  
 
 
