@@ -13,8 +13,8 @@ mondayWork()
 
 function wrapAdjective(){
   return function(var1){
-    return let encouragingPromptFunction = wrapAdjective("!!!")
-  }("special")
+       return 
+  }
 }
 
 
