@@ -16,6 +16,7 @@ function wrapAdjective(str="*"){
        return "You are "
   }
 }
+wrapAdjective()
 
 
 
