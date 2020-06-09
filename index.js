@@ -38,8 +38,9 @@ function actionApplyer(x,y){
   return x
   }
   else{
+    let res=x
     for(let i=0;i<y.length;i++){
-      y[i]()
+    res=y[i](res)
     }
   }
 }
