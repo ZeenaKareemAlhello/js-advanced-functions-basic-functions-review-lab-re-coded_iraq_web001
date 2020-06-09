@@ -34,7 +34,7 @@ const Calculator={
 }
 
 function actionApplyer(x,y){
-  if (y===[]){
+  if (y==[]){
   return x
     
   }
