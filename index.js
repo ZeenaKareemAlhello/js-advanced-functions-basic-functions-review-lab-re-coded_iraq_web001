@@ -41,8 +41,8 @@ function actionApplyer(x,y){
     
   }
 }
-actionApplyer(3,[])
- var arrayOfFunction = [ 
+actionApplyer(3,arrayOfFunction)
+ let arrayOfFunction = [ 
                 function(a) { 
                   return a*2 ; 
                 }, 
